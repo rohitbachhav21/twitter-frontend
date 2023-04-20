@@ -1,0 +1,358 @@
+/* .Edit-profile-btn{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 2rem;
+    margin-right: 20px;
+}
+
+.Edit-profile-btn:hover{
+    background-color: rgb(207, 206, 206);
+}
+
+.modal{
+    background-color: white;
+    padding: 10px;
+    overflow-y: scroll;
+    border-radius: 50px;
+}
+
+.modal::-webkit-scrollbar{
+    display: none;
+}
+.header{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+    z-index: 1;
+    background-color: white;
+    top: 0px;
+    position: sticky;
+}
+
+.header .header-title{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.header .save-btn{
+    margin-right: 10px;
+    color: aliceblue;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 20px;
+
+}
+
+.header_twittericon{
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    background-color: white;
+    top: 0px;
+    position: sticky;
+    width: 30px;
+}
+
+.header_twittericon>.twitterIcon{
+    color: var(--twitter-color);
+    font-size: 35px !important;
+    margin: 250px;
+}
+
+.backgroundImage{
+    height: 200px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #b4b7b9;
+    margin-bottom: 5px;
+}
+.profileTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.profileImage{
+    width: 134px;
+    height: 134px;
+    margin-top: -80px;
+    border-radius: 9999px;
+    padding: 0px;
+    background-color: var(--twitter-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profileImage .MuiAvatar-root{
+    width: 134px;
+    height: 134px;
+    margin-left: 10px;
+}
+
+.fill-content{
+    margin: 20px;
+}
+
+.fill-content .text-field{
+    padding-bottom: 10px;
+    border: none;
+}
+.birthDate-section{
+    display: flex;
+ 
+}
+
+.birthDate-section p{
+    font-weight: 600;
+    padding-left: 5px;
+    margin-bottom: 8px;
+
+}
+.birthDate-section text{
+    color: rgb(135, 214, 250);
+    cursor: pointer;
+    padding-bottom: 20px;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    
+}
+.text .e-button{
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 20px;
+
+}
+.last-section h2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;    
+}
+.last-section .last-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+
+ */
+ .Edit-profile-btn{
+  background-color: white;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 2rem;
+  margin-right: 20px;
+}
+
+
+ .Modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  background-color: #f2f2f2;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.save-btn {
+  color: white;
+  background-color: #1DA1F2;
+  border: none;
+  border-radius: 9999px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.save-btn:hover {
+  background-color: #0d8bcf;
+}
+
+.fill-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.text-field {
+  margin-bottom: 16px;
+}
+
+.birthDate-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  border-top: 1px solid #f2f2f2;
+}
+
+.last-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.last-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.last-btn {
+  display: flex;
+  align-items: center;
+  color: #1DA1F2;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.last-btn:hover {
+  color: #0d8bcf;
+}
+
+.birthdate-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.birthdate-section text {
+  color: #1DA1F2;
+  font-weight: 600;
+}
+
+.e-button {
+  color: white;
+  background-color: #1DA1F2;
+  border: none;
+  border-radius: 9999px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-top: 16px;
+}
+
+.e-button:hover {
+  background-color: #0d8bcf;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.text p {
+  font-size: 1rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.text input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.text input[type="text"],
+.text textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 16px;
+border-radius: 4px;
+border: 1px solid #ccc;
+}
+
+.text textarea {
+resize: vertical;
+min-height: 100px;
+}
+
+.text label {
+font-size: 1rem;
+font-weight: 600;
+margin-bottom: 8px;
+}
+
+.text .form-group {
+width: 100%;
+}
+
+.text .form-group.inline {
+display: flex;
+justify-content: space-between;
+}
+
+.text .form-group.inline input[type="text"] {
+width: 48%;
+}
+
+.text .form-group.inline label {
+width: 48%;
+text-align: left;
+}
+
+.text .form-group.inline label:first-of-type {
+margin-right: 4%;
+}
+
+.text .form-group.inline label:last-of-type {
+margin-left: 4%;
+}

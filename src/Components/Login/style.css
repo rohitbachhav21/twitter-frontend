@@ -1,0 +1,154 @@
+
+
+body{
+  overflow: hidden;
+}
+.login-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  width: 100vw;
+  min-width: none;
+}
+
+.signup-container {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  width: 100vw;
+  min-width: none;
+}
+
+.form-container {
+  flex: 1;
+  padding: 3.125rem;
+  margin: 0.625rem;
+  align-content: center;
+}
+
+.form.box {
+  justify-content: left;
+  align-items: inherit;
+  grid-row: auto;
+}
+
+.img {
+  position: fixed;
+}
+
+.twittericon {
+  color: skyblue;
+  max-width: 50%;
+}
+
+.heading,
+h2 {
+  font-size: 3.125rem;
+}
+
+.input-form {
+  height: 2.813rem;
+  width: 90%;
+  font-size: 1rem;
+  border-radius: 0.313rem;
+  padding-left: 0.938rem;
+  border: 0.063rem solid #ccc;
+  border-bottom-width: 0.125rem;
+  transition: all 0.3s ease;
+  background-color: #e6ecf0;
+  margin-top: 1.25rem;
+  outline: none;
+}
+
+.btn-login {
+  margin-top: 1.25rem;
+  height: 2.813rem;
+  width: 90%;
+  border-radius: 0.313rem;
+  border: none;
+  background-color: #50b7f5;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-signup {
+  margin-top: 1.25rem;
+  height: 2.813rem;
+  width: 90%;
+  border-radius: 0.313rem;
+  border: none;
+  background-color: #50b7f5;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.g-btn {
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0.625rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .login-container,
+  .signup-container {
+    flex-direction: column;
+    height: 100svh;
+    
+  }
+  
+  .form-container {
+    margin: 1rem auto;
+    width: 100%;
+  }
+  
+  .input-form,
+  .btn-login,
+  .btn-signup,
+  .g-btn {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .login-container,
+  .signup-container {
+    flex-direction: column;
+    height: 160vh;
+
+  }
+
+  .form-container {
+    margin: 1rem auto;
+    width:100%;
+    
+  }
+
+  .input-form,
+  .btn-login,
+  .btn-signup,
+  .g-btn {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .login-container,
+  .signup-container {
+    flex-direction: column;
+  }
+
+  .form-container {
+    margin: 1rem auto;
+    width: 100%;
+  }
+
+  .input-form,
+  .btn-login,
+  .btn-signup,
+  .g-btn {
+    width: 90%;
+  }
+}

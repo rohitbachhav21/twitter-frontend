@@ -1,0 +1,23 @@
+.login-container{
+  display: flex;
+  text-align: center;
+}
+
+body{
+  --twitter-color:#50b7f5;
+  --twitter-background:#e6ecf0;
+}
+
+.app{
+  display: flex;
+  height: 100vh;
+  max-width: 81.25rem; 
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 0.625rem;
+}
+@media screen and (max-width:688px) {
+  .app{
+    display: block;
+  }
+}

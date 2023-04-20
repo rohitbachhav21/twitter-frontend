@@ -1,0 +1,15 @@
+.react-otp-input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  .react-otp-input-container input {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1.2rem;
+  }

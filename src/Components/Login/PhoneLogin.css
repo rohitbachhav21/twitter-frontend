@@ -1,0 +1,126 @@
+/* 
+
+.login-container{
+    align-items: center;
+    display: flex;
+    flex:1;
+    width: 100vw;
+    min-width: none;
+}
+.phone-container{
+    flex:1;
+    padding: 50px;
+    margin: 10px;
+    align-content: center;
+}
+
+.phone-input{
+    height: 45px;
+    width: 90%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    margin-left: 19px;
+}
+
+.input-form{
+    height: 45px;
+  width: 90%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  background-color: #e6ecf0;
+  margin-top: 20px;
+  }
+  .button-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+    
+
+  /* ////// */
+  .login-container {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    width: 100vw;
+    min-width: none;
+  }
+  
+  .phone-container {
+    flex: 1;
+    padding: 3.125rem; 
+    margin: 0.625rem; 
+    align-content: center;
+  }
+  
+  /* .phone-input {
+    height: 2.8125rem; 
+    width: 90%;
+    outline: none;
+    font-size: 1rem; 
+    border-radius: 0.3125rem; 
+    padding-left: 0.9375rem; 
+    border: 1px solid #ccc;
+    border-bottom-width: 0.125rem; 
+    transition: all 0.3s ease;
+    background-color: #e6ecf0;
+    margin-top: 1.25rem; 
+    margin-left: 1.1875rem; 
+  }
+   */
+
+
+   .phone-input {
+    height: 2.8125rem; /* Converted from 45px to rem */
+    width: 90%;
+    font-size: 1rem; /* Converted from 16px to rem */
+    border-radius: 0.3125rem; /* Converted from 5px to rem */
+    padding-left: 0.9375rem; /* Converted from 15px to rem */
+    border: 0.6rem solid transparent;
+    border-bottom: 0.125rem solid #ccc; /* Add bottom border */
+    transition: all 0.3s ease;
+    background-color: #e6ecf0;
+    margin-top: 1.25rem; /* Converted from 20px to rem */
+    margin-left: 1.1875rem; /* Converted from 19px to rem */
+  }
+  
+  .phone-input:focus {
+    /* Styles for the focused state */
+    border-bottom: 0.125rem solid #000; /* Change the border color */
+    /* outline: none; */
+  }
+  
+
+  .input-form {
+    height: 2.8125rem; /* Converted from 45px to rem */
+    width: 90%;
+    font-size: 1rem; /* Converted from 16px to rem */
+    border-radius: 0.3125rem; /* Converted from 5px to rem */
+    padding-left: 0.9375rem; /* Converted from 15px to rem */
+    border: 1px solid #ccc;
+    border-bottom-width: 0.125rem; /* Converted from 2px to rem */
+    transition: all 0.3s ease;
+    background-color: #e6ecf0;
+    margin-top: 1.25rem; /* Converted from 20px to rem */
+  }
+  
+  .button-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+
+     

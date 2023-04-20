@@ -1,0 +1,52 @@
+:root {
+  font-size: 16px;
+}
+
+.explore_section {
+  border-right: 0.0625rem solid var(--twitter-background);
+}
+
+.explore_input {
+  display: flex;
+
+  background-color: var(--twitter-background);
+  margin-top: 1.25rem;
+  border-radius: 3.125rem;
+  padding: 0.625rem;
+  width: max-content;
+}
+
+.explore_input input {
+  outline: none;
+  border: none;
+  margin-top: 0px;
+  background-color: var(--twitter-background);
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+p {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 48rem) {
+  .explore_input {
+    margin-left: 1rem;
+  }
+}

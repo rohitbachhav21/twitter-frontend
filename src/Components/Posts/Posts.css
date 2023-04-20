@@ -1,0 +1,140 @@
+/* .post{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 10px;
+}
+
+.post_body{
+    flex:1;
+    padding: 10px;
+}
+.post_body img{
+    border-radius: 10px;
+    border: 1px solid var(--twitter-background) ;
+}
+
+.post_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1 10px;
+    margin-top: 10px;
+}
+
+.post_footer_icon:hover{
+    cursor:pointer;
+    columns: var(--twitter-color);
+}
+.post_headerDescription{
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+
+.post_headerText>h3{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.post_badge{
+    font-size: 14px !important;
+    color: var(--twitter-color);
+}
+
+.post_headerSpecial{
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+}
+.post_avatar{
+    padding: 20px;
+} */
+
+/* Styles for .post */
+
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 0.625rem; /* 10px converted to rem */
+}
+
+.post_body {
+  flex: 1;
+  padding: 0.625rem; /* 10px converted to rem */
+}
+
+.post_body img {
+  border-radius: 0.625rem; /* 10px converted to rem */
+  border: 1px solid var(--twitter-background);
+}
+
+.post_footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.063rem 0.625rem; /* 1px and 10px converted to rem */
+  margin-top: 0.625rem; /* 10px converted to rem */
+}
+
+.post_footer_icon:hover {
+  cursor: pointer;
+  columns: var(--twitter-color);
+}
+
+.post_headerDescription {
+  margin-bottom: 1.25rem; /* 20px converted to rem */
+  font-size: 0.938rem; /* 15px converted to rem */
+}
+
+.post_headerText > h3 {
+  font-size: 0.938rem; /* 15px converted to rem */
+  margin-top: 0.313rem; /* 5px converted to rem */
+}
+
+.post_badge {
+  font-size: 0.875rem !important; /* 14px converted to rem */
+  color: var(--twitter-color);
+}
+
+.post_headerSpecial {
+  font-weight: 600;
+  font-size: 0.75rem; /* 12px converted to rem */
+  color: gray;
+}
+
+.post_avatar {
+  padding: 1.25rem; /* 20px converted to rem */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+.post {
+  flex-wrap: wrap;
+  padding-bottom: 0.313rem; /* 5px converted to rem */
+  /* max-width: 38rem; */
+  max-width: 90svw;
+
+}
+
+.post_body {
+  flex-basis: 100%;
+  padding: 0.313rem; /* 5px converted to rem */
+}
+
+.post_footer {
+  flex-wrap: wrap;
+  padding: 0.063rem; /* 1px converted to rem */
+}
+
+.post_footer_icon {
+  columns: unset;
+}
+
+.post_headerText > h3 {
+  font-size: 0.75rem; /* 12px converted to rem */
+}
+
+.post_avatar {
+  padding: 0.625rem; /* 10px converted to rem */
+}
+}
+

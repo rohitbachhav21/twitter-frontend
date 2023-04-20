@@ -1,0 +1,70 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageTitle {
+  font-size: 1.875rem;
+  padding: 1rem;
+  color: var(--twitter-color);
+}
+.page {
+  max-width: 38rem;
+  border-right: 0.0625rem solid var(--twitter-background);
+  overflow-y: scroll;
+  width: 38rem;
+}
+.page::-webkit-scrollbar {
+  display: none;
+}
+
+.profilepage {
+  max-width: 38rem;
+  width: 38rem;
+  border-right: 0.0625rem solid var(--twitter-background);
+  overflow-y: scroll;
+}
+.profilepage::-webkit-scrollbar {
+  display: none;
+}
+
+.avtr {
+  display: none;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-right: 0.1rem solid #ccc;
+  z-index: -1;
+  transition: border-width 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 90svw;
+    max-width: 38rem;
+    border-right: none;
+  }
+
+  .avtr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .avtr .MuiAvatar-root {
+    width: 3rem;
+    height: 3rem;
+  }
+}

@@ -1,0 +1,190 @@
+.arrow-icon {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.arrow-icon:hover {
+  color: var(--twitter-color);
+}
+
+.mainProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.bind {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.coverImageContainer {
+  position: relative;
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.coverImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hoverCoverImage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hoverCoverImage:hover {
+  opacity: 1;
+}
+
+.imageInput {
+  display: none;
+}
+
+.imageIcon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.photoIcon {
+  font-size: 1.8rem;
+  color: #1da1f2;
+}
+
+.avatar-img {
+  position: relative;
+}
+
+.avatarContainer {
+  margin-top: -5rem;
+  margin-left: 1.25rem;
+  border-radius: 100%;
+  position: relative;
+  height: 9.375rem;
+  width: 9.375rem;
+  border: 0.25rem solid white;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hoverAvatarImage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hoverAvatarImage:hover {
+  opacity: 1;
+}
+
+.imageIcon_tweetButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.usernameSection {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.heading-3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 0;
+}
+
+.heading-4 {
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom:0.6rem
+}
+.tweetsText {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoContainer {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+}
+
+.locationAndLink {
+  display: flex;
+  align-items: center;
+}
+
+.subInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8em;
+  color: #999;
+  margin-top: 0.5em;
+}
+
+.subInfo span {
+  margin-right: 1em;
+}
+
+.subInfo .comments {
+  color: #6c757d;
+}
+
+.subInfo .time {
+  color: #999;
+}

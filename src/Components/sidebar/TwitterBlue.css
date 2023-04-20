@@ -1,0 +1,106 @@
+/* Set the base font size to 16px */
+html {
+    font-size: 16px;
+  }
+  
+  /* Use rem units for all font sizes and spacing */
+  body {
+    font-size: 1rem;
+    /* line-height: 1.5; */
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  h5.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45rem;
+    max-height: 80vh;
+    position: relative;
+  }
+  
+  .card {
+    /* margin: 1rem; */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    /* margin: 0.2rem; */
+    /* padding: 0.2rem; */
+    
+  }
+  
+  .card-header {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: #f8f9fa;
+  }
+  
+  .card-body {
+    padding: 1rem;
+    /* max-height: fit-content; */
+
+  }
+  
+  .list-group-item {
+    border: none;
+  }
+  
+  .card-footer {
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  /* .MuiMenu-list {
+    outline: 0;
+    background-color: black;
+}
+   */
+  @media (min-width: 576px) { 
+    /* default 576px */
+  /* Use two columns on small screens */
+    .card-deck {
+      flex-wrap: nowrap;
+    }
+    
+    .card {
+      flex: 1 0 50%;
+      max-width: 50%;
+      max-height: fit-content;
+    /* position: absolute; */
+
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* Use three columns on medium screens */
+    .card {
+      flex: 1 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  }
+  

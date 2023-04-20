@@ -1,0 +1,132 @@
+html {
+  font-size: 16px;
+}
+
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 29rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 9999;
+  z-index: 9999;
+  border-right: 0.0625rem solid var(--twitter-background); 
+  padding-left: 10.2rem;
+  padding-right: 4rem;
+}
+
+.Sidebar .Twittericon {
+  color: #1da1f2;
+  font-size: 2.188rem;
+}
+
+.Edit-subscribe-btn {
+  width: 14.4rem;
+  height: 3.125rem;
+  margin-bottom: 1.5rem;
+  background-color: black;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 1.875rem;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  padding-top: 0.6rem;
+  cursor: pointer;
+}
+
+.Sidebar .icon {
+  display: flex;
+  align-items: center;
+  height: 3.125rem;
+  padding-left: 1.563rem;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.Sidebar .icon:hover {
+  background-color: #1c2938;
+  cursor: pointer;
+}
+
+.Sidebar button.sidebar_tweet {
+  width: 14.4rem;
+  height: 3.125rem;
+  margin-bottom: 1.75rem;
+  background-color: #1da1f2;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 1.875rem;
+  transition: all 0.2s ease-in-out;
+}
+.MuiMenu-list {
+  outline: 0;
+}
+
+.Sidebar button.sidebar_tweet:hover {
+  background-color: #0b8bc8;
+  cursor: pointer;
+}
+
+.Sidebar .temp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.625rem;
+  font-size: 1rem; /* 16px / 16px = 1rem */
+  margin-bottom: 0.625rem; /* 10px / 16px = 0.625rem */
+  border-radius: 3rem;
+  border: 0.0625rem;
+  background-color: #e8f5fe;
+}
+.Sidebar .iconButton {
+  color: #ffffff;
+  margin-left: auto;
+  padding-right: 5px;
+}
+
+.Sidebar .temp:hover {
+  background-color: #edf1f3;
+
+  cursor: pointer;
+}
+
+.Sidebar .Profile_info {
+  display: flex;
+}
+
+.Sidebar .Profile_info .user_info h6 {
+  padding-left: 0.625rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .Sidebar {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  #avtr{
+    
+  }
+}
+@media screen and (max-width: 992px) {
+  .Sidebar {
+    display: none;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .Sidebar {
+    display: none;
+  }
+}
